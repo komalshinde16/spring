@@ -1,4 +1,4 @@
-package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model;
+package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.model;
 
 public class Course {
 

@@ -1,7 +1,7 @@
 package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.controller;
 
 
-import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.Course;
+import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.model.Course;
 import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.service.CourseService;
 import org.springframework.stereotype.Controller;
 

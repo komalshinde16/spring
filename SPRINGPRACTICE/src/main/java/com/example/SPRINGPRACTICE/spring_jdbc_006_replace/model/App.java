@@ -1,6 +1,7 @@
 package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model;
 
 import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.controller.CourseController;
+import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.model.Course;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

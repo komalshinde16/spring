@@ -1,6 +1,6 @@
 package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.dao;
 
-import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.Course;
+import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.model.Course;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
