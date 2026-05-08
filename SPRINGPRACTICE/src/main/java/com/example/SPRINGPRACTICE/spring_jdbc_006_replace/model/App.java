@@ -1,5 +1,6 @@
 package com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model;
 
+import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.config.SpringConfig;
 import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.controller.CourseController;
 import com.example.SPRINGPRACTICE.spring_jdbc_006_replace.model.model.Course;
 import org.springframework.context.ApplicationContext;
@@ -12,7 +13,7 @@ public class App {
                 new AnnotationConfigApplicationContext(SpringConfig.class);
         CourseController courseController = context.getBean(CourseController.class);
         courseController.update(Course.builder()
-                .id(4)
+                .id(1)
                 .name("spring Data jdbc 1")
                 .description("abstraction layer built on top jdbc")
                 .price(99)
