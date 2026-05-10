@@ -2,6 +2,7 @@ package com.example.SPRINGPRACTICE.spring_mvc_009_crud.dao;
 
 
 import com.example.SPRINGPRACTICE.spring_mvc_009_crud.model.Student;
+import com.example.SPRINGPRACTICE.spring_mvc_009_crud.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
